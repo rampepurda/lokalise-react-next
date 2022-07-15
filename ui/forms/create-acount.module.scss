@@ -1,0 +1,51 @@
+$is-desktop-max: 'max-width: 750px';
+$c-deeppink: rgb(79, 1, 137 );
+
+.createAccount {
+  display: inline-flex;
+  flex-flow: column;
+  justify-items: flex-start;
+  border: 1px solid rgba(gray, 0.5);
+  border-radius: 0.3rem;
+  padding: 1.5rem;
+  font-family: Arial;
+
+  h2 {
+    margin: 0;
+    font-size: 1.8rem;
+
+    &.sub {
+      margin-bottom: 2rem;
+      color: gray;
+      font-size: 0.8rem;
+    }
+  }
+
+  label {
+    margin: 1rem 0 0.3rem 0;
+    color: $c-deeppink;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+
+  input {
+    padding: 0.5rem 1rem;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+  }
+
+  button {
+    margin: 1.5rem 0 0 0;
+    padding: 0.6rem;
+    border: 0 none;
+    border-radius: 0.5rem;
+    background-color: $c-deeppink;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  // MEDIA QUERIES
+  @media ($is-desktop-max) {}
+}
+
