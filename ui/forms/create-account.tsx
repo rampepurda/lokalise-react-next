@@ -1,35 +1,49 @@
-import Link from 'next/link';
+import {FC} from "react";
 import Style from './create-acount.module.scss'
 
-export default function CreateAccount() {
+interface initValues {
+  headline: string,
+  subHeadline: string,
+  labelEmail: string,
+  labelPhone: number,
+  labelPass: string,
+  placeholderEmail: string,
+  placeholderPhone: string,
+  placeholderPass: string,
+  btnSubmit: string
+}
+
+interface propsCreateAccount {
+  data: initValues
+}
+
+export const CreateAccount: FC<propsCreateAccount> = ({data}) => {
   return (
     <form
       className={Style.createAccount}
       name='createAccount'>
-      <h2>Create an Account</h2>
-      <h2 className={Style.sub}>Connect with your friends today!</h2>
-      <label>Email Address</label>
+      <h2>{data.headline}</h2>
+      <h2 className={Style.sub}>{data.subHeadline}</h2>
+      <label>{data.labelEmail}</label>
       <input
         type={'email'}
-        placeholder={'Enter your email'}
+        placeholder={`${data.placeholderEmail}`}
       />
 
-      <label>Phone Number</label>
+      <label>{data.labelPhone}</label>
       <input
         type={'text'}
-        placeholder={'Enter your phonenumber'}
+        placeholder={`${data.placeholderPhone}`}
       />
 
-      <label>Password</label>
+      <label>{data.labelPass}</label>
       <input
         type={'password'}
-        placeholder={'Please Enter Your Password'}
+        placeholder={`${data.placeholderPass}`}
       />
 
-      <button
-        type='button'
-      >
-        Sign Up
+      <button type='button'>
+        {data.btnSubmit}
       </button>
     </form>
   );

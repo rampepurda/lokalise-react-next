@@ -1,9 +1,29 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Layout from '../core-components/Layout'
-import CreateAccount from "../ui/forms/create-account";
+import { CreateAccount } from "../ui/forms/create-account";
+import dataListJson from '../dataJson/lokalise.json'
+import {useEffect, useState} from "react";
 
 const Home: NextPage = () => {
+  const [lanType, setLanType] = useState<boolean>(true)
+  const getDataJson: any = dataListJson
+  const dataEn: any = getDataJson[0].en[0]
+  const dataCz: any = getDataJson[0].cz[0]
+  const [langChanger, setLangChanger] = useState<any>(dataEn)
+  const langHandle = () => {
+    if(lanType) {
+      setLangChanger(dataCz)
+      setLanType(false)
+    } else {
+      setLanType(true)
+      setLangChanger(dataEn)
+    }
+  }
+
+  useEffect(() => {
+  },[lanType])
+
   return (
     <>
       <Head>
@@ -13,11 +33,41 @@ const Home: NextPage = () => {
       </Head>
 
       <Layout>
-        <h1>Localise how to compiled into React-next</h1>
-        <CreateAccount />
+        <h1>Localise: how to compiled into React-next</h1>
+        <nav
+          className='lang-changer'
+          aria-label='language changer'
+        >
+          <ul>
+            <li role={'button'}>
+              Change language to: <span onClick={(e) => {
+                e.preventDefault();
+                langHandle()
+            }}
+            >{ lanType ? 'Cz' : 'En'}</span>
+            </li>
+          </ul>
+        </nav>
+        <CreateAccount data={ lanType ? langChanger : langChanger } />
       </Layout>
     </>
   )
 }
 
 export default Home
+
+export const getData = async () => {
+  try {
+    const res = await fetch(``);
+    const dataJson = await res.json();
+
+    if (!res) {
+      throw new Error(`Failed reason is: ${res}`)
+    }
+    return { props: { dataJson },}
+  }
+    catch (err: any) {
+      alert(`${err.message}`)
+  }
+}
+
