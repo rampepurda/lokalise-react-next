@@ -1,0 +1,17 @@
+[
+    {
+        "en": [
+            {
+                "headline": "",
+                "subHeadline": "",
+                "labelEmail": "",
+                "labelPhone": "Número de teléfono",
+                "labelPass": "Clave",
+                "placeholderEmail": "Introduce tu correo electrónico",
+                "placeholderPhone": "Ingrese su número telefónico",
+                "placeholderPass": "Por favor, introduzca su contraseña",
+                "btnSubmit": ""
+            }
+        ]
+    }
+]

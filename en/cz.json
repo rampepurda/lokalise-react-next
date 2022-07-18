@@ -1,0 +1,17 @@
+[
+    {
+        "cz": [
+            {
+                "headline": "Vytvořte si účet",
+                "subHeadline": "Spojte se s přáteli ještě dnes",
+                "labelEmail": "Váš email",
+                "labelPhone": "Telefoní číslo",
+                "labelPass": "Heslo",
+                "placeholderEmail": "Napište váš email",
+                "placeholderPhone": "Napište vaše telefonní číslo",
+                "placeholderPass": "Vaše heslo",
+                "btnSubmit": "Přihlásit se"
+            }
+        ]
+    }
+]
