@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Layout from '../core-components/Layout'
 import { CreateAccount } from "../ui/forms/create-account";
-import dataListJsonCz from '../config/locals/cz.json'
+import dataListJsonCz from '../config/locals/zh_CN.json'
 import dataListJsonEn from '../config/locals/en.json'
 import {useEffect, useState} from "react";
 
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                 e.preventDefault();
                 langHandle()
             }}
-            >{ lanType ? 'Cz' : 'En'}</span>
+            >{ lanType ? '中文' : 'En'}</span>
             </li>
           </ul>
         </nav>
