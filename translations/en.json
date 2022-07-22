@@ -1,0 +1,16 @@
+{
+  "address": "Demo app",
+  "app.description": "Demo app description modified",
+  "app.name": "Demo app",
+  "btnSubmit": "Sign up",
+  "headline": "Create an Account",
+  "labelEmail": "Email Address",
+  "labelPass": "Password",
+  "labelPhone": "Phone Number",
+  "name": "Demo app test new",
+  "placeholderEmail": "Enter your email",
+  "placeholderPass": "Please Enter Your Password",
+  "placeholderPhone": "Enter your phonenumber",
+  "projectDescription": "Project Demo Tokens is only for testing reason, need to be translated",
+  "subHeadline": "Connect with your friends today"
+}
