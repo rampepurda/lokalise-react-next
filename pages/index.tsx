@@ -2,20 +2,21 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Layout from '../core-components/Layout'
 import { CreateAccount } from "../ui/forms/create-account";
-import dataListJsonCz from '../config/locals/zh_CN.json'
-import dataListJsonEn from '../config/locals/en.json'
+import dataListJsonCn from '../translations/zh_CN.json'
+import dataListJsonEn from '../translations/en.json'
 import {useEffect, useState} from "react";
 
 const Home: NextPage = () => {
   const [lanType, setLanType] = useState<boolean>(true)
   const getDataJsonEn: any = dataListJsonEn
-  const getDataJsonCz: any = dataListJsonCz
-  const dataEn: any = getDataJsonEn[0].en[0]
-  const dataCz: any = getDataJsonCz[0].cz[0]
+  const getDataJsonCn: any = dataListJsonCn
+  //const dataEn: any = getDataJsonEn[0].en[0]
+  const dataEn: any = getDataJsonEn
+  const dataCn: any = getDataJsonCn
   const [langChanger, setLangChanger] = useState<any>(dataEn)
   const langHandle = () => {
     if(lanType) {
-      setLangChanger(dataCz)
+      setLangChanger(dataCn)
       setLanType(false)
     } else {
       setLanType(true)
