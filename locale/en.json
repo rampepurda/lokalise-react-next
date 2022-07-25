@@ -1,3 +1,15 @@
 {
-    "branchName": "feature\/lokalise_translations"
+    "headline": "Create an Account",
+    "btnSubmit": "Sign up",
+    "en": "En",
+    "branchName": "feature-lokalise_translations",
+    "aaa": "test up-download, changed in Lokalise branch_01",
+    "labelEmail": "Email Address",
+    "labelPass": "Password",
+    "labelPhone": "Phone Number",
+    "name": "Demo app test new",
+    "placeholderEmail": "Enter your email",
+    "placeholderPass": "Please Enter Your Password",
+    "placeholderPhone": "Enter your phonenumber",
+    "projectDescription": "Project Demo Tokens is only for testing reason, need to be translated"
 }
