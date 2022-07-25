@@ -1,11 +1,13 @@
 {
+  "branchName": "feature\/lokalise_translations",
+  "btnSubmit": "Sign up",
+  "en": "En",
   "headline": "Create an Account",
-  "subHeadline": "Connect with your friends today",
   "labelEmail": "Email Address",
-  "labelPhone": "Phone Number",
   "labelPass": "Password",
+  "labelPhone": "Phone Number",
   "placeholderEmail": "Enter your email",
-  "placeholderPhone": "Enter your phonenumber",
   "placeholderPass": "Please Enter Your Password",
-  "btnSubmit": "Sign up"
+  "placeholderPhone": "Enter your phonenumber",
+  "subHeadline": "Connect with your friends today"
 }

@@ -47,7 +47,7 @@ const Home: NextPage = () => {
                 e.preventDefault();
                 langHandle()
             }}
-            >{ lanType ? '中文' : 'En'}</span>
+            >{ lanType ? `${dataCn.zh_cn}` : `${dataEn.en}`}</span>
             </li>
           </ul>
         </nav>

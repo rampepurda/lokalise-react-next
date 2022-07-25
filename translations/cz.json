@@ -1,7 +1,4 @@
 {
-  "address": "Demo app",
-  "app.description": "Demo app description modified",
-  "app.name": "Demo app",
   "btnSubmit": "Sign up",
   "headline": "Create an Account",
   "labelEmail": "Email Address",
