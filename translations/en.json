@@ -1,5 +1,6 @@
 {
-  "branchName": "feature\/lokalise_translations",
+  "aaa": "test up-download, changed in Lokalise",
+  "branchName": "feature-lokalise_translations",
   "btnSubmit": "Sign up",
   "en": "En",
   "headline": "Create an Account",
