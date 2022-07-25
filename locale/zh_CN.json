@@ -1,3 +1,15 @@
 {
-    "branchName": "功能\/lokalise_translations"
+    "headline": "创建一个帐户",
+    "btnSubmit": "注册",
+    "en": "恩",
+    "branchName": "功能",
+    "aaa": "",
+    "labelEmail": "",
+    "labelPass": "",
+    "labelPhone": "",
+    "name": "",
+    "placeholderEmail": "",
+    "placeholderPass": "",
+    "placeholderPhone": "",
+    "projectDescription": ""
 }
