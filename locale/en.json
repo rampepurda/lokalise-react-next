@@ -1,4 +1,12 @@
 {
-    "branchName": "feature-lokalise_translations",
-    "aaa": "test up-download, changed in Lokalise branch_01"
+  "btnSubmit": "Sign up",
+  "en": "En",
+  "headline": "Create an Account",
+  "labelEmail": "Email Address",
+  "labelPass": "Password",
+  "labelPhone": "Phone Number",
+  "placeholderEmail": "Enter your email",
+  "placeholderPass": "Please Enter Your Password",
+  "placeholderPhone": "Enter your phonenumber",
+  "subHeadline": "Connect with your friends today"
 }
