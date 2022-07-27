@@ -1,4 +1,5 @@
 {
-    "branchName": "lokalise_translations",
-    "aaa": "test up-download, changed in Lokalise branch_01"
+  "fruit": "Apple",
+  "size": "Large",
+  "color": "Red"
 }
