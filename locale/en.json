@@ -5,12 +5,10 @@
     "labelPhone": "Phone Number",
     "labelPass": "Password",
     "placeholderEmail": "Enter your email",
-    "placeholderPhone": "Enter your phonenumber",
+    "placeholderPhone": "Enter your phone number",
     "placeholderPass": "Please Enter Your Password",
-    "btnSubmit": "Sign up",
     "en": "En",
     "branchName": "feature-lokalise_translations",
-    "aaa": "test up-download, changed in Lokalise",
     "fruit": "Apple",
     "size": "Large",
     "color": "Red"
