@@ -1,0 +1,15 @@
+{
+  "headline": "Create an Account now!",
+  "subHeadline": "Connect with your friends today",
+  "labelEmail": "Email Address",
+  "labelPhone": "Phone Number",
+  "labelPass": "Password",
+  "placeholderEmail": "Enter your email",
+  "placeholderPhone": "Enter your phone number",
+  "placeholderPass": "Please Enter Your Password",
+  "en": "En",
+  "branchName": "feature-lokalise_translations",
+  "fruit": "Apple",
+  "size": "Large",
+  "color": "Red"
+}
