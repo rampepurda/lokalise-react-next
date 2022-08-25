@@ -1,0 +1,25 @@
+.Translation {
+  .Form {
+    max-width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 0.4rem;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    form {
+      display: flex;
+      flex-flow: column;
+
+      label {
+        margin: 1rem 0 0.3rem 0;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
+

@@ -4,7 +4,7 @@
   "headline": "Create an Account",
   "labelEmail": "Email Address",
   "labelPass": "Password",
-  "labelPhone": "Phone Number",
+  "labelPhone": "Phone <bold>Number</bold>",
   "placeholderEmail": "Enter your email",
   "placeholderPass": "Please Enter Your Password",
   "placeholderPhone": "Enter your phonenumber",

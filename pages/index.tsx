@@ -1,10 +1,13 @@
-import type {NextPage} from 'next'
-import Head from 'next/head'
-import Layout from '../core-components/Layout'
-import {CreateAccount} from "../ui/forms/create-account";
-import dataListJsonCn from '../locale/zh_CN.json'
-import dataListJsonEn from '../locale/en.json'
+import type {NextPage} from 'next';
+import Head from 'next/head';
+import Link from "next/link";
+import Layout from '../core-components/Layout';
+//import {CreateAccount} from "../ui/forms/create-account";
+import {CreateAccount} from '../ui/forms/create-account/create-account';
+import dataListJsonCn from '../locale/zh_CN.json';
+import dataListJsonEn from '../locale/en.json';
 import {useEffect, useState} from "react";
+
 
 const Home: NextPage = () => {
   const [lanType, setLanType] = useState<boolean>(true)
@@ -34,23 +37,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Layout>
+      <header>
         <h1>Localise: how to compiled into React-next</h1>
-        <nav
-          className='lang-changer'
-          aria-label='language changer'
-        >
-          <ul>
-            <li role={'button'}>
-              Change language to: <span onClick={(e) => {
-                e.preventDefault();
-                langHandle()
-            }}
-            >{ lanType ? `${dataCn.zh_cn}` : `${dataEn.en}`}</span>
-            </li>
-          </ul>
-        </nav>
-        <CreateAccount data={ lanType ? langChanger : langChanger } />
+      </header>
+
+      <Layout>
+        {/* ...testing purpose */}
+        <CreateAccount />
+
       </Layout>
     </>
   )
