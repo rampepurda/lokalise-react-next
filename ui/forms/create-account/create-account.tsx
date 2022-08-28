@@ -1,6 +1,5 @@
 import i18n from "i18next";
 import {initReactI18next, Trans, useTranslation} from "react-i18next";
-import Link from "next/link";
 import Style from '../../forms/create-account/use_translation.module.scss';
 import En from '../../../locale/en.json';
 import ZhCn from '../../../locale/zh_CN.json';
