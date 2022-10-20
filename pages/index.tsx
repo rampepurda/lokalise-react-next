@@ -1,8 +1,9 @@
-import type {NextPage} from 'next';
-import Head from 'next/head';
-import Layout from '../core-components/Layout';
-import {CreateAccount} from '../ui/forms/create-account/create-account';
-import {useEffect, useState} from "react";
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import '../i18n'
+import Layout from '../core-components/Layout'
+import { CreateAccount } from '../ui/forms/create-account/create-account'
+import { useEffect } from "react"
 
 const Home: NextPage = () => {
 
@@ -24,7 +25,6 @@ const Home: NextPage = () => {
       <Layout>
         {/* ...testing purpose */}
         <CreateAccount />
-
       </Layout>
     </>
   )
